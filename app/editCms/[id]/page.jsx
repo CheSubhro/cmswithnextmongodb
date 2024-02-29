@@ -19,7 +19,7 @@ const getCmsById = async (id) => {
     }
   };
 
-export default async function editCms({params}){
+export default async function EditCms({params}){
     const {id} =params;
     const { cms } = await getCmsById(id);
     const { title,content,author,category,pub_date,mod_date,status,action } = cms;

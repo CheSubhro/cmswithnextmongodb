@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 
-export default function addCms(){
+export default function AddCms(){
 
     const [title,setTitle] = useState('');
     const [content,setContent] = useState('');
