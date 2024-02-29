@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function editCmsfrom({title,content,author,category,pub_date,mod_date,status,action}){
+export default function EditCmsFrom({title,content,author,category,pub_date,mod_date,status,action}){
 
     const [newTitle, setNewTitle] = useState(title);
     const [newContent, setNewContent] = useState(content);
